@@ -1,0 +1,190 @@
+:root {
+  --index: calc(1vw + 1vh);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0;
+}
+
+.container {
+  margin: 7px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 0;
+  left: 0;
+  top: 0;
+  border-radius: 0 0 5px 5px;
+}
+.header .logo {
+  width: calc(12 * var(--index));
+}
+.header .logo .logo_img {
+  width: 100%;
+}
+.header .right {
+  display: flex;
+  align-items: center;
+}
+.header .right ul {
+  margin-left: 20px;
+  list-style: none;
+  display: flex;
+}
+.header .right ul .item {
+  position: relative;
+  margin-right: 20px;
+}
+.header .right ul .item a {
+  color: #4F9CF9;
+  text-decoration: none;
+  font-size: calc(0.9 * var(--index));
+  transition: color 0.2s;
+}
+.header .right ul .item:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 50%;
+  bottom: 0%;
+  transform: translateX(-50%);
+  background-color: orange;
+  transition: width 0.5s;
+}
+.header .right ul .item:hover:after {
+  width: 100%;
+}
+.header .right ul .item:hover a {
+  color: orange;
+}
+.header .right ul .register, .header .right ul .bank {
+  padding: 10px 25px;
+  border-radius: 8px;
+  margin: 2.5px;
+  font-size: calc(0.9 * var(--index));
+}
+.header .right ul .register {
+  background-color: #FFE492;
+  transition: background-color 0.4s;
+}
+.header .right ul .register a {
+  transition: color 0.4s;
+  color: #043873;
+  text-decoration: none;
+}
+.header .right ul .bank {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  background-color: #4F9CF9;
+}
+.header .right ul .bank .arrow {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  right: -20px;
+  transition: transform 0.5s;
+}
+.header .right ul .bank a {
+  color: white;
+  text-decoration: none;
+  transition: transform 0.5s;
+}
+.header .right ul .register:hover {
+  background-color: #beab74;
+}
+.header .right ul .register:hover a {
+  color: #ffffff;
+}
+.header .right ul .bank:hover a {
+  transform: translateX(-20px);
+}
+.header .right ul .bank:hover .arrow {
+  transform: translateX(-50px);
+}
+
+.content .slide1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 20px);
+}
+.content .slide1 .back {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -100;
+}
+.content .slide1 .center {
+  height: 50%;
+  display: flex;
+  width: 80%;
+  position: relative;
+}
+.content .slide1 .center .left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content .slide1 .center .right {
+  margin-left: 10px;
+  width: 50%;
+  background-color: #C4DEFD;
+  border-radius: 10px;
+}
+.content .slide1 .title, .content .slide1 .info {
+  color: white;
+}
+.content .slide1 .title {
+  margin-bottom: 10px;
+  font-size: calc(2.3 * var(--index));
+}
+.content .slide1 .info {
+  font-size: calc(0.8 * var(--index));
+  font-weight: 300;
+}
+.content .slide1 .button_outer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  border-radius: 8px;
+  margin: 2.5px;
+  font-size: calc(0.9 * var(--index));
+  overflow: hidden;
+  align-items: center;
+  background-color: #4F9CF9;
+  left: 0;
+  bottom: 0;
+  margin: 10px;
+}
+.content .slide1 .try {
+  color: white;
+  text-decoration: none;
+  transition: transform 0.5s;
+}
+.content .slide1 .arrow {
+  position: relative;
+  width: 12px;
+  right: -50px;
+  transition: all 0.5s;
+}
+.content .slide1 .button_outer:hover .try {
+  transform: translateX(-10px);
+}
+.content .slide1 .button_outer:hover .arrow {
+  transform: translateX(-40px);
+}/*# sourceMappingURL=style.css.map */

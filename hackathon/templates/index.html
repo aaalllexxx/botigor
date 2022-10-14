@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>бот-Игорь - визитная карточка</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/style.css')}}">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="logo">
+            <img src="{{url_for('static', filename='imgs/logo.png')}}" alt="" class="logo_img">
+        </div>
+        <div class="right">
+            <ul class="nav_left">
+                <li class="item"><a href="#">Кредиты</a></li>
+                <li class="item"><a href="#">Карты</a></li>
+                <li class="item"><a href="#">Ипотека</a></li>
+                <li class="item"><a href="#">Ещё</a></li>
+            </ul>
+            <ul class="nav_right">
+                <li class="register"><a href="https://ib.open.ru/webbank/#/login">Регистрация</a></li>
+                <li class="bank">
+                    <a href="https://www.open.ru/">Интернет-банк</a>
+                    <img src="{{url_for('static', filename='imgs/arrow.png')}}" alt="" class="arrow">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="slide1">
+            <img src="{{url_for('static', filename='imgs/back.png')}}" alt="back" class="back">
+            <div class="center">
+                <div class="left">
+                    <h1 class="title">У вас есть вопросы?</h1>
+                    <h3 class="info">Наша новая и ультра современная разработка чат бот-Игорь. Он поможет вам в любой
+                        ситуации,
+                        какой бы она не была. </h3>
+                    <div class="button_outer">
+                        <a href="http://t.me/Otkritie1Bot" class="try">Попробовать</a>
+                        <img src="{{url_for('static', filename='imgs/arrow.png')}}" alt="arrow" class="arrow">
+                    </div>
+                </div>
+                <div class="right"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
