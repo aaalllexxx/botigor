@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T17:47:16.391Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.2.810 Yowser/2.5 Safari/537.36" etag="GCEez2NF9wl9jk8f0EqN" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-23T17:48:30.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.2.810 Yowser/2.5 Safari/537.36" etag="Jz_O7PlaibFReZM--V-S" version="21.2.1" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1050" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1909" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,14 +46,16 @@
         <mxCell id="8AVhBNLxLf88ExCwK8Bf-74" value="Привезти оригиналы документов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="82.75" y="506" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8AVhBNLxLf88ExCwK8Bf-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="2" source="8AVhBNLxLf88ExCwK8Bf-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635.5" y="622" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8AVhBNLxLf88ExCwK8Bf-76" value="Отдать оригиналы и подписать все нужные договоры" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2">
           <mxGeometry x="80.5" y="592" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3" value="член приёмной кампания" style="swimlane;whiteSpace=wrap;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="444.5" y="128" width="280" height="862" as="geometry" />
-        </mxCell>
-        <mxCell id="38" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" parent="3" vertex="1">
-          <mxGeometry x="135.5" y="812" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8AVhBNLxLf88ExCwK8Bf-51" value="данные корректны?" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="3">
           <mxGeometry x="66.5" y="52" width="146.67" height="88" as="geometry" />
@@ -131,6 +133,18 @@
         </mxCell>
         <mxCell id="8AVhBNLxLf88ExCwK8Bf-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8AVhBNLxLf88ExCwK8Bf-72" target="8AVhBNLxLf88ExCwK8Bf-74">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8AVhBNLxLf88ExCwK8Bf-79" value="Деканат" style="swimlane;whiteSpace=wrap;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="724.5" y="128" width="280" height="862" as="geometry" />
+        </mxCell>
+        <mxCell id="8AVhBNLxLf88ExCwK8Bf-80" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" vertex="1" parent="8AVhBNLxLf88ExCwK8Bf-79">
+          <mxGeometry x="130.25" y="802" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8AVhBNLxLf88ExCwK8Bf-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="8AVhBNLxLf88ExCwK8Bf-79" source="8AVhBNLxLf88ExCwK8Bf-93" target="8AVhBNLxLf88ExCwK8Bf-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8AVhBNLxLf88ExCwK8Bf-93" value="Зачислить студента" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="8AVhBNLxLf88ExCwK8Bf-79">
+          <mxGeometry x="80" y="590" width="130.5" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
